@@ -21,8 +21,8 @@ const PROJECTION_CONFIG = {
 
 function Twentysixteen(){
   //API LINKS
-  const ProgressBarLink = "http://127.0.0.1:8000/api/"
-  const Sixteen = 'http://127.0.0.1:8000/api/2016/'
+  const ProgressBarLink = "https://andyson.pythonanywhere.com/api/"
+  const Sixteen = 'https://andyson.pythonanywhere.com/api/2016/'
   //STORING IN STATE
   const [pbdata, setPbdata] = useState([]);
   const [data, setData] = useState([]);
@@ -87,8 +87,8 @@ function Twentysixteen(){
       <Router>
         <Switch>
           <Route exact path="/2016"> 
-          <nav className="navbar navbar-light bg-dark">
-        <span className="navbar-brand mb-0 h1"><img className="Title" src={logo} alt="logo"/></span>
+          <nav>
+        <img className="Title" src={logo} alt="logo"/>
       </nav>
       <div className="header">
       <p>Zambia Elections</p>

@@ -21,8 +21,8 @@ const PROJECTION_CONFIG = {
 
 function ElevenYear(){
     //API LINKS
-    const ProgressBarLink = "http://127.0.0.1:8000/api/"
-    const eleven = 'http://127.0.0.1:8000/api/2011/'
+    const ProgressBarLink = "https://andyson.pythonanywhere.com/api/"
+    const eleven = 'https://andyson.pythonanywhere.com/api/2011/'
 
     //STORING IN STATE
     const [pbdata, setPbdata] = useState([]);
@@ -91,8 +91,8 @@ function ElevenYear(){
     <Router>
       <Switch>
         <Route exact path="/2011">
-        <nav className="navbar navbar-light bg-dark">
-        <span className="navbar-brand mb-0 h1"><img className="Title" src={logo} alt="logo"/></span>
+        <nav>
+        <img className="Title" src={logo} alt="logo"/>
       </nav>
       <div className="header">
       <p>Zambia Elections</p>

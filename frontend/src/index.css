@@ -1,5 +1,5 @@
  /* Small devices (landscape phones, 576px and up) */
- @media only screen and (min-width: 320px){
+ @media only screen and (min-width: 200px){
 
   body {
     margin: 0;
@@ -26,12 +26,13 @@
   .links{
     justify-content: center;
     display: flex;
+    font-size: 25px;
   
   }
   
   .sixteen{
-   padding-right: 100px;
-   padding-left: 100px;
+   padding-right: 80px;
+   padding-left: 80px;
   }
   
   .profile{
@@ -242,6 +243,7 @@
   }
   th{
     background-color: #343a40;
+    color: white;
   }
   
   tr:nth-child(even){
@@ -278,6 +280,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav{
+  background-color: #343a40;
 }
 .lr{
   position: relative;
@@ -459,7 +465,7 @@ code {
   padding-left: 10px;
 }
 .Title{
-  width: 100%;
+  width: 50%;
 }
 .title1{
   text-align: center;
