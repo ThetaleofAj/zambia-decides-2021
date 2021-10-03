@@ -3,4 +3,6 @@ ZAMBIA DECIDES 2021 is a practice project inspired by the many election result t
 
 
 
-![2021_08_09_13_34_47_SparkVideo](https://user-images.githubusercontent.com/50357897/135755630-0b511899-edd4-4d79-9dc5-067d29e94cb1.gif)
+
+
+![Zambia Decides 2021 - Google Chrome 2021-10-03 15-31-54](https://user-images.githubusercontent.com/50357897/135758626-ffcc8c4a-67a9-498f-ad32-49f5c1fbec03.gif)
